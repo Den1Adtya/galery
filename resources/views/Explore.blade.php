@@ -9,14 +9,13 @@
     <title>Sinterest</title>
 </head>
 <body>
-
 <div class="bg-white">
     <header class="absolute inset-x-0 top-0 z-50">
       <nav class="flex items-center justify-between p-6 lg:px-8" aria-label="Global">
         <div class="flex lg:flex-1">
-          <a href="/Home " class="-m-1.5 p-1.5">
+          <a href="/Home" class="-m-1.5 p-1.5">
             <span class="sr-only">Sinterest</span>
-            <img class="h-8 w-auto" src="https://i.ibb.co/ft6fWDV/1706269969738.png" alt="snapedit-1705208572334" alt="Sinterest ">
+            <img class="h-8 w-auto" src="https://i.ibb.co/ft6fWDV/1706269969738.png" alt="Sinterest  ">
           </a>
         </div>
         <div class="flex lg:hidden">
@@ -27,11 +26,11 @@
             </svg>
           </button>
         </div>
-       
+        
         <div class="absolute left-20 lg:flex lg:flex-1 lg:gap-x-5 ">
-          <a href="#" class="justify-center rounded-full bg-black -100 px-3 py-1.5 text-sm font-semibold leading-8 text-white shadow-sm hover:bg-black-500">Home</a>
-          <a href="/Explore  " class="text-sm font-semibold leading-8 text-gray-900">Explore</a>
-          <a href="#" class="text-sm font-semibold leading-8 text-gray-900">Create</a>
+          <a href="/Home" class="text-sm font-semibold leading-6 text-gray-900">Home</a>
+          <a href="#" class="justify-center rounded-full bg-black -600 px-3 py-1.5 text-sm font-semibold leading-6 text-white shadow-sm hover:bg-black-500">Explore</a>
+          <a href="#" class="text-sm font-semibold leading-6 text-gray-900">Create</a>
         </div>
         <table style="width:79%; text-align:left;">
           <tr>
