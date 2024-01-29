@@ -28,9 +28,9 @@
         </div>
         
         <div class="absolute left-20 lg:flex lg:flex-1 lg:gap-x-2">
-          <a href="/Home" class="tjustify-center rounded-full bg-white -600 px-3 py-1.5 text-sm font-semibold leading-6 text-black shadow-sm hover:bg-candy-500">Home</a>
-          <a href="#" class="justify-center rounded-full bg-black -600 px-3 py-1.5 text-sm font-semibold leading-6 text-white shadow-sm hover:bg-black-500">Explore</a>
-          <a href="/Create "class="justify-center rounded-full bg-white -600 px-3 py-1.5 text-sm font-semibold leading-6 text-black shadow-sm hover:bg-candy-500">Create</a>
+          <a href="/Home" class="justify-center rounded-full bg-white -600 px-3 py-1.5 text-sm font-semibold leading-6 text-black shadow-sm hover:bg-candy-500">Home</a>
+          <a href="/Explore" class="justify-center rounded-full bg-white -600 px-3 py-1.5 text-sm font-semibold leading-6 text-black shadow-sm hover:bg-candy-500">Explore</a>
+          <a href="#"class="justify-center rounded-full bg-black -600 px-3 py-1.5 text-sm font-semibold leading-6 text-white shadow-sm hover:bg-black-500">Create</a>
         </div>
         <table style=text-align:center;>
           <tr>

@@ -30,7 +30,9 @@ Route::get('/Register', function () {
 Route::get('/Explore', function () {
     return view('Explore');
 });
-
+Route::get('/Create', function () {
+    return view('Create');
+});
 
 // Route::get('/dashboard', function () {
 //     return view('dashboard');

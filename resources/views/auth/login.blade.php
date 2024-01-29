@@ -12,7 +12,7 @@
 <body>
 <div class="flex min-h-full flex-col justify-center px-6 py-12 lg:px-8">
     <div class="sm:mx-auto sm:w-full sm:max-w-sm">
-      <img class="mx-auto h-10 w-auto" src="https://upload.wikimedia.org/wikipedia/commons/0/08/Pinterest-logo.png" alt="/Home  ">
+      <img class="mx-auto h-10 w-auto" src="https://i.ibb.co/ft6fWDV/1706269969738.png" alt="/Home  ">
       <h2 class="mt-10 text-center text-2xl font-bold leading-9 tracking-tight text-gray-900">Sign in to your account</h2>
     </div>
   

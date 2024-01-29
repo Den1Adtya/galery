@@ -16,7 +16,7 @@
         <div class="flex lg:flex-1">
           <a href="/Home " class="-m-1.5 p-1.5">
             <span class="sr-only">Sinterest</span>
-            <img class="h-8 w-auto" src="https://i.ibb.co/ft6fWDV/1706269969738.png" alt="snapedit-1705208572334" alt="Sinterest ">
+            <img class="h-9 w-auto" src="https://i.ibb.co/ft6fWDV/1706269969738.png" alt="snapedit-1705208572334" alt="Sinterest ">
           </a>
         </div>
         <div class="flex lg:hidden">
@@ -28,27 +28,46 @@
           </button>
         </div>
        
-        <div class="absolute left-20 lg:flex lg:flex-1 lg:gap-x-5 ">
-          <a href="#" class="justify-center rounded-full bg-black -100 px-3 py-1.5 text-sm font-semibold leading-8 text-white shadow-sm hover:bg-black-500">Home</a>
-          <a href="/Explore  " class="text-sm font-semibold leading-8 text-gray-900">Explore</a>
-          <a href="#" class="text-sm font-semibold leading-8 text-gray-900">Create</a>
+        <div class="absolute left-20 lg:flex lg:flex-1 lg:gap-x-2 ">
+          <a href="#" class="justify-center rounded-full bg-black -600 px-3 py-1.5 text-sm font-semibold leading-6 text-white shadow-sm hover:bg-candy-500">Home</a>
+          <a href="/Explore  " class="justify-center rounded-full bg-white -600 px-3 py-1.5 text-sm font-semibold leading-6 text-black shadow-sm hover:bg-candy-500">Explore</a>
+          <a href="/Create " class="justify-center rounded-full bg-white -600 px-3 py-1.5 text-sm font-semibold leading-6 text-black shadow-sm hover:bg-candy-500">Create</a>
         </div>
-        <table style="width:79%; text-align:left;">
+        <table style=text-align:center;>
           <tr>
               <td>
                 <div>
                 <form action="#">
-                  <input type="text" name="search" placeholder="Search..." style="padding: 10px; border: none; border-radius: 30px; width: 700px; background-color: #e2e2e2;">
+                  <input type="text" name="search" placeholder="Search..." style="padding: 10px; border: none; border-radius: 30px; width: 650px; background-color: #e2e2e2;">
                 </div>
               </form>
               </td>
           </tr>
       </table>
+      <div class="hidden lg:flex lg:flex-1 lg:justify-end lg:gap-x-3">
+        <a href="/Home" class="-m-1.5 p-1.5">
+          <span class="sr-only">Notification</span>
+          <img class="h-8 w-auto" src="https://i.ibb.co/xJKxMLJ/notification-bell.png" alt="Notification  ">
+        </a>
+          
+          <span class="sr-only">Messages</span>
+          <img class="h-7 w-auto" src="https://i.ibb.co/HpvMK5B/message-bubble.png" alt="Messages  ">
+        </a>
+          
+          <span class="sr-only">Notification</span>
+          <img class="h-7 w-auto" src="https://i.ibb.co/S3jWb4V/user-image-with-black-background.png" alt="Notification  ">
+        </a>
 
+        <span class="sr-only">Notification</span>
+        <img class="h-8 w-auto" src="https://i.ibb.co/X7dP5hj/down-1.png" alt="Notification  ">
+      </a>
+
+      </div>
+      </nav>
         <!--
         <div class="hidden lg:flex lg:flex-1 lg:justify-end lg:gap-x-3">
-          <a href="/Login   " class="justify-center rounded-md bg-red-600 px-3 py-1.5 text-sm font-semibold leading-6 text-white shadow-sm hover:bg-candy-500">Log in </a>
-          <a href="/Register   " class="justify-center rounded-md bg-red-600 px-3 py-1.5 text-sm font-semibold leading-6 text-white shadow-sm hover:bg-candy-500">Register </a>
+          <a href="/Login   " class="justify-center rounded-full bg-red-600 px-3 py-1.5 text-sm font-semibold leading-6 text-white shadow-sm hover:bg-candy-500">Log in </a>
+          <a href="/Register   " class="justify-center rounded-full bg-red-600 px-3 py-1.5 text-sm font-semibold leading-6 text-white shadow-sm hover:bg-candy-500">Register </a>
         </div>
       </nav>
     -->
@@ -88,26 +107,23 @@
     </header>
 
     <main class="mt-20">
-  <div class="grid grid-cols-4 gap-4">
-    <div class="grid-item grid-row-2 grid-col-2 bg-gray-200 p-4 rounded-lg">
-      <img src="image1.jpg" class="w-full h-64 object-cover">
-      <h2 class="text-xl font-bold mt-2">Title 1</h2>
-      <p class="text-gray-700">Description 1</p>
+  <div class="grid grid-cols-4 gap-3 px-10">
+    <div class="grid-item grid-row-2 grid-col-2">
+      <img src="https://i.pinimg.com/474x/f0/95/82/f09582994175230186561d1793af7bc5.jpg" class="rounded-2xl">
     </div>
-    <div class="grid-item grid-row-1 grid-col-1 bg-gray-200 p-4 rounded-lg">
-      <img src="image2.jpg" class="w-full h-32 object-cover">
-      <h2 class="text-lg font-bold mt-2">Title 2</h2>
-      <p class="text-gray-700">Description 2</p>
+    <div class="grid-item grid-row-1 grid-col-1 ">
+      <img src="https://i.pinimg.com/474x/77/8f/54/778f54cf8a472288c30c4685ce791704.jpg" class="rounded-2xl" >
     </div>
-    <div class="grid-item grid-row-1 grid-col-1 bg-gray-200 p-4 rounded-lg">
-      <img src="image3.jpg" class="w-full h-32 object-cover">
-      <h2 class="text-lg font-bold mt-2">Title 3</h2>
-      <p class="text-gray-700">Description 3</p>
+    <div class="grid-item grid-row-1 grid-col-1 ">
+      <img src="https://i.pinimg.com/474x/c7/ee/aa/c7eeaa39062e932529805de77b1f4a59.jpg" class="rounded-2xl" >
     </div>
     <div class="grid-item grid-row-1 grid-col-2 bg-gray-200 p-4 rounded-lg">
       <img src="image4.jpg" class="w-full h-32 object-cover">
       <h2 class="text-lg font-bold mt-2">Title 4</h2>
       <p class="text-gray-700">Description 4</p>
+    </div>
+    <div class="grid-item grid-row-2 grid-col-2">
+      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQCLTIE2BMuA4oRGxVT-KWsPvW7WCokWb1KPcJQfXitF2vFbiS2eJmL1Yild9wVBx3cTRs&usqp=CAU" class="rounded-2xl">
     </div>
     <div class="grid-item grid-row-2 grid-col-1 bg-gray-200 p-4 rounded-lg">
       <img src="image5.jpg" class="w-full h-32 object-cover">
@@ -118,6 +134,9 @@
       <img src="image6.jpg" class="w-full h-64 object-cover">
       <h2 class="text-xl font-bold mt-2">Title 6</h2>
       <p class="text-gray-700">Description 6</p>
+    </div>
+    <div class="grid-item grid-row-2 grid-col-2">
+      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRTZqYO4dOYga0x4Ef72ZLie1W_Mato9A7Ibg&usqp=CAU" class="rounded-2xl">
     </div>
   </div>
     </main>
